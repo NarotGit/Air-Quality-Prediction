@@ -1,8 +1,9 @@
 # Air-Quality-Prediction 
+![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![Python 3.7](https://img.shields.io/badge/Python-3.7-brightgreen.svg) 
+
 ### Air is what keeps humans alive. Monitoring it and understanding its quality is of immense importance to our well-being
 __Objective__: To estimate the air pollution level using past data-set and to predict the increasing pollution levels after a specific time period.
 
-![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![Python 3.7](https://img.shields.io/badge/Python-3.7-brightgreen.svg) ![Library](https://img.shields.io/badge/Library-kears%202.3.1-orange) ![Library](https://img.shields.io/badge/Library-Tensorflow%201.14.0-red)
 
 • Dataset:This dataset is manually prepared from different sites for hyderabad city(which is around just 1200 readings) and dataset is provided in repository.
 
