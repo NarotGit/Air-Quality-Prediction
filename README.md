@@ -20,5 +20,6 @@ Link:"https://github.com/NarotGit/Air-Quality-Prediction"
 •  Please do ⭐ the repository, if it helped you in anyway.
 
 • A glimpse of the web app:
+![glimpse](https://user-images.githubusercontent.com/76248668/102894934-d7ffb580-4489-11eb-9322-112897b52603.gif)
 
 
