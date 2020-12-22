@@ -1,7 +1,7 @@
 # Air-Quality-Prediction 
 ![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![Python 3.7](https://img.shields.io/badge/Python-3.7-brightgreen.svg) 
 
-### Air is what keeps humans alive. Monitoring it and understanding its quality is of immense importance to our well-being
+### Air is what keeps humans alive. Monitoring it and understanding its quality is of immense importance to our well-being.
 __Objective__: To estimate the air pollution level using past data-set and to predict the increasing pollution levels after a specific time period.
 
 
