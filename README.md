@@ -5,7 +5,7 @@
 __Objective__: To estimate the air pollution level using past data-set and to predict the increasing pollution levels after a specific time period.
 
 
-• Dataset:This dataset is manually prepared from different sites for hyderabad city(which is around just 1200 readings) and dataset is provided in repository.
+• Dataset: This dataset is manually prepared from different sites for hyderabad city(which is around just 1200 readings) and dataset is provided in repository.
 
 
 • This repository consists of files required to deploy a __Machine Learning model__ to predict Air Quality and Web app ___created with Flask___.<br>
