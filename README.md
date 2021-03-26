@@ -17,6 +17,8 @@ link:"https://github.com/NarotGit/Air-Quality-Prediction/blob/main/aqi.ipynb"
 • For complete project files to deploy this model.link below:
 Link:"https://github.com/NarotGit/Air-Quality-Prediction"
 
+• If you want to view the deployed model, click on the following link:<br>
+link:"https://air-quality-prediction-api.herokuapp.com/"
 
 •  Please do ⭐ the repository, if it helped you in anyway.
 
