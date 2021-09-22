@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Air Quality Index Prediction</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+.login{
+  margin-top: 150px;
+  margin-left: 1150px;
+}
+input{
+  margin-top: 20px;
+  height:40px;
+  width: 450px;
+  margin-left:-80px;
+  text-align: center;
+  color:blue;
+}
+.button2 {background-color: #1b74a8;} /* Blue */
+.button {
+  border-radius: 2px;
+  border: none;
+  height: 40px;
+  width:200px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 45px;
+  
+}
+
+h2{
+  margin-left: -40px;
+  font-family: cambria;
+  font-weight: bold;
+  font-size: 60px;
+  color: #0371a3;
+
+}
+
+h3{
+  margin-left: -250px;
+  font-family: cambria;
+  font-weight: bold;
+  font-size: 60px;
+  color: #0371a3;
+
+}
+h4{
+  margin-left: 45px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000
+}
+        body{
+ 		background-image: url("https://cdn.thewire.in/wp-content/uploads/2018/11/22162228/https-_s3-ap-northeast-1.amazonaws.com_psh-ex-ftnikkei-3937bb4_images_8_9_0_6_13806098-3-eng-GB_20180502_air-pollution-india.jpg");
+		background-repeat: no-repeat;
+ 		background-attachment: fixed;
+ 	 	background-size: 2560px 1300px;
+		color: white;
+	}
+.footer{
+	margin-top:240px;
+	margin-left:1250px;
+   	font-size: 14px;
+	padding: 20px;
+	flex-shrink: 0;
+	position: relative;
+	background-size: 500% 500%;
+	
+}
+
+</style>
+        
+</head>
+<body>
+    <div class="login">
+        <h2>HYDERABAD</h2>
+        <h3>Air Quality Index Prediction</h3>
+	<br>
+        <!--Main input for receiving query to our ML-->
+        <form action="{{ url_for('y_predict')}}"method="post">
+        <div>
+        <input type="number" name="PM2.5" step="any" placeholder="PM2.5" required="required"/><br>
+        
+        <input type="number" name="PM10" step="any" placeholder="PM10" required="required"/> <br>
+        
+        <input type="number" name="NO2" step="any" placeholder="NO2" required="required"/><br>
+        
+        <input type="number" name="CO" step="any" placeholder="CO" required="required"/><br>
+        
+        <input type="number" name="SO2" step="any" placeholder="SO2" required="required"/><br>
+        
+        <input type="number" name="O3" step="any" placeholder="O3" required="required"/><br>
+        <br>
+        
+        <button class="button button2">Predict</button>
+    </div>
+       <h4> {{ prediction_text }} </h4>
+        <br>
+        <br>
+	
+    </div>
+<div class='footer'>
+            <div class="contact">
+                <a target="_blank" href="https://github.com/NarotGit/Air-Quality-Prediction"><i class="fa fa-github" style="font-size:24px;color:white"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/narotham-reddy-3683b5202/"><i class="fa fa-linkedin-square" style="font-size:24px;color:white" ></i></a>
+            </div>
+            <p class='footer-description'></p>
+        </div>
+</body>
+</html>
