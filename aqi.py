@@ -28,17 +28,17 @@ def y_predict():
     data = sc.transform(data)
     prediction = model.predict(data)
     print(prediction)
-    if prediction <= 50:
+    if prediction <= 60:
         result=('AQI is '+ str(prediction[0]) + ' : Good')
-    elif (prediction <= 100) and (prediction>50):
+    elif (prediction <= 120) and (prediction>60):
         result=('AQI is '+ str(prediction[0]) + ' : Moderate')
-    elif (prediction <= 150) and (prediction>100):
+    elif (prediction <= 170) and (prediction>120):
         result=('AQI is '+ str(prediction[0]) + ' : Unhealthy for Sensitive Groups')
-    elif (prediction <= 200) and (prediction>150):
+    elif (prediction <= 220) and (prediction>170):
         result=('AQI is '+ str(prediction[0]) + ' : Unhealthy')
-    elif (prediction <= 300) and (prediction>200):
+    elif (prediction <= 320) and (prediction>220):
         result=('AQI is '+ str(prediction[0]) + ' : Very Unhealthy')
-    elif (prediction <= 500) and (prediction>300):
+    elif (prediction <= 500) and (prediction>320):
         result=('AQI is '+ str(prediction[0]) + ' : Hazardous')
     else:
         result='error'
