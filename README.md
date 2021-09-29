@@ -23,6 +23,6 @@ link:"https://air-quality-prediction-api.herokuapp.com/"
 •  Please do ⭐ the repository, if it helped you in anyway.
 
 • A glimpse of the web app:
-![glimpse](https://im2.ezgif.com/tmp/ezgif-2-af4e6a7f94ec.gif)
+![glimpse](images/aqi.gif)
 
 
